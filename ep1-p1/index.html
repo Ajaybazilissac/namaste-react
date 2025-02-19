@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      const heading1 = document.createElement("h1");
+      heading1.innerHTML = "React.developement.js";
+      const root = document.getElementById("root");
+      root.appendChild(heading1);
+
+      const content1 = document.createElement("p");
+      content1.innerHTML = "This file in the CDN contain the core react.";
+      root.appendChild(content1);
+
+      const heading2 = document.createElement("h1");
+      heading2.innerHTML = "React.dom.development.js";
+      root.appendChild(heading2);
+
+      const content2 = document.createElement("p");
+      content2.innerHTML =
+        "This file in the CDN uses for DOM manipulation in react";
+      root.appendChild(content2);
+
+      const heading3 = document.createElement("h2");
+      heading3.innerHTML = "CDN: Content Delivery Network";
+      root.appendChild(heading3);
+
+      const content3 = document.createElement("p");
+      content3.innerHTML =
+        "A content delivery network (CDN) is a network of interconnected servers that speeds up webpage loading for data-heavy applications. CDN can stand for content delivery network or content distribution network.";
+      root.appendChild(content3);
+    </script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+  </body>
+</html>
