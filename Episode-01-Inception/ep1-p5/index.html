@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <h1>Ajay is here</h1>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+<!--
+order of files matter a lot
+
+as soon as the browser load this page it will print
+Ajay is here in the browser. But as soon as it goes to the scripts
+it will load react and the it will load reactDOM in to our app
+then it will load the app.js to the app, then it will start
+executing the code on app.js line by line. when it react the line having
+root.render(), it will render the parent inside the root. it will replace 
+what ever inside the root with what ever we are passing through react.
+-->

@@ -1,0 +1,15 @@
+{
+  "name": "ep2-p1",
+  "version": "1.0.0",
+  "description": "This is namaste react by Ajay Bazil Issac",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Ajay Bazil Issac",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
