@@ -38,3 +38,37 @@ run in dev
 # "build":"parcel build index.html"
 
 run in prod
+
+# Namaste Food
+
+/\*\*
+
+- -
+- @returns
+- Header
+- -Logo
+- -Nav Item
+- Body
+- -search
+- -Resturand container
+- -Resturand Card
+-      -Img
+-      -Name of resturand, star rating, cusine, delivery time
+- Footer
+- -Copyright
+- - Links
+- -Address
+- -Contact
+  \*/
+
+  Two types of Export/Import
+
+  -Default Export/Import
+
+  export default Components
+  import Components from "path"
+
+  -Named Export/Import
+
+  export const Components
+  iport {Components} from "path"
