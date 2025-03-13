@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+}
+
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav-items {
+  padding: 0 20px;
+}
+
+.nav-items > ul {
+  font-size: 24px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.res-card {
+  width: 200px;
+  color: "#f0f0f0";
+  margin: 5px;
+  padding: 5px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-logo {
+  width: 100%;
+  height: 140px;
+}
+
+.res-card > h4 {
+  overflow-wrap: break-word;
+  margin: 0 0 10px;
+}
+
+.res-cusine {
+  color: #bab7b7;
+}
+
+.staring {
+  color: #fff;
+  background-color: green;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.del-time, .price-for-two {
+  color: #bab7b7;
+  font-size: 10px;
+}
+
+.res-details {
+  overflow-wrap: break-word;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.filter-btn {
+  cursor: pointer;
+  margin: 10px;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
