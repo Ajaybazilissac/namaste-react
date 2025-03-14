@@ -1,6 +1,7 @@
 import ResturandCard from "./ResturandCard";
 
 import { useState, useEffect } from "react";
+import Shimmer from "./Shimmer";
 // not using key ( not acceptable) <<<<<<index as key <<<<<< unique id (best practice)
 const Body = () => {
   // Local State Variable - super power variable- scope inside this components.
@@ -23,6 +24,10 @@ const Body = () => {
     );
     //json?.data?.cards[3].card?.card?.info?.name
   };
+  //login for spinning loader
+  if (listOfRestaurants.length === 0) {
+    return <Shimmer />;
+  }
   return (
     <div className="body">
       <div className="filter">
