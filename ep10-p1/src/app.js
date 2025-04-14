@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
 import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
-
+import "./index.css";
 //import Grocery from "./components/Grocery";
 
 // Chunking
